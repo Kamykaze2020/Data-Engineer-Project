@@ -84,8 +84,17 @@ I analyse the datasets with the duplicate entries. We see that we have a good re
 
 ![image](https://github.com/user-attachments/assets/295e9a58-1353-47ef-ab77-265edd81d499)
 
-So that I don’t lose important data I decided to make a Fuzzy Matching for Duplicate-Like Entries on 3 columns: ‘Company Name’, ‘Phone’ and ‘Category’, when we find a row where data matches with a threshold of a 80% similarity on all colums we keep the first row and discard the other. We can play with this values to obtain a better result, we can lower the similarity percentage for different results
+So that I don’t lose important data I decided to make a Fuzzy Matching for Duplicate-Like Entries on 3 columns: ‘Company Name’, ‘Phone’ and ‘Category’, when we find a row where data matches with a threshold of a 80% similarity on all colums we keep the first row and discard the other. We can play with this values to obtain a better result, we can lower the similarity percentage for different results.
 
+
+After Fuzzy	               |  Before Fuzzy
+:-------------------------:|:-------------------------:
+![image](https://github.com/user-attachments/assets/396f4b3e-db56-4346-8d16-c4e9b2c044ba)  |  ![image](https://github.com/user-attachments/assets/0a1a3c75-ca79-426f-8cc0-831937533dc5)
+
+
+After the algorithm with a 80% similarity is implemented we see a reduction in the number of duplicate rows inside the duplicate dataset with a reduction varying between 2.3% - 8.78%, which is not a very high reduction.
+
+I run the algorithm again with a 70% similarity and we obtain the results below.
 
 
 
