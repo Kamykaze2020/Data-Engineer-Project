@@ -34,6 +34,7 @@ The NaN values have an even lower number, the highest occuping a percentage of 8
 Non-ascii characters occupy a small percentage of the datasets, the highest beeing in the Website dataset, occuping 7.66% of total rows, but they need to be corected so that when we make the outer join there won’t appear more rows.
 
 
+<br/><br/>
 ### Phone column
 
 I’ve ensured that all the phone numbers are treated as stirngs and removed any non-numeric characters that may appear.
@@ -42,6 +43,8 @@ There is a high percentage of duplicates in the ‘Phone’ column, the highest 
 
 There are no NaN values or Non-ascii characters which is very good.
 
+
+<br/><br/>
 ### Category column
 
 I’ve converted all rows to lowecase to prevent cases where data has wrong uppercase characters.
