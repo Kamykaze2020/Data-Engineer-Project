@@ -1,6 +1,6 @@
 # Data-Engineer-Project
 
-# # The assignment
+## The assignment
 
 The input for this assignment is an archive (download [**here**](https://drive.google.com/file/d/1jF7lnMUffCX8U252MoY7jowb7VedFOp8/view?usp=sharing)) containing 3 datasets with data about the same companies from 3 different sources: 
 
