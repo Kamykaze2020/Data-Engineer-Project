@@ -58,8 +58,8 @@ I can’t find Non-ascii characters in this column.
 
 The conclusion I can deduce is that the ‘Company Name’ column is the best column on wich we can make an outer join between the datasets.
 
-### Processing the duplicates
-<br/><br/>
+## Processing the duplicates
+
 
 We should try to remove the duplicates, but we should be careful not to lose data, for that I consider that a Fuzzy Matching for Duplicate-Like Entries should work alright, when we find a row where data matches with a threshold of a 80% similarity we should keep the first row and discard the other. We will use th fuzzywuzzy library in Python.
 
