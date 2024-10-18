@@ -20,7 +20,7 @@ The comlumns that interest us most are Category, Address (country, region...), P
 
 I prioritized looking into the columns for the merger as follows: ‘Company Name’ > ‘Phone’ > ‘Category’ > ‘Address(country, region…)’, because I belive in the ‘Company Name’ and ‘Phone’ categories there appear the least typo errors when people insert data into a table.
 
-
+<br/><br/>
 ### Company Name column
 
 
