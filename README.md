@@ -70,7 +70,7 @@ Given the fact that I only need to work with the duplicates I decided to extract
 
 ![image](https://github.com/user-attachments/assets/5d355f78-8d3e-4429-a2f0-03ce987cff36)
 
-![image](https://github.com/user-attachments/assets/d7cd3c9c-0f48-4d72-81d2-bdda8c5edaeb)
+![image](https://github.com/user-attachments/assets/39c269c2-b97b-45d8-aba3-6660ffe34ac0)
 
 We saved the datasets, now I need to clean the duplicates. In the website dataset, there are a lot of empty fields in the ‘Company Name’ but there is a separate column named ‘leagal_name’ that can be used as a replacement, so I wrote a code to replace the empty spaces with the name from the ‘legal_name’ column.
 
