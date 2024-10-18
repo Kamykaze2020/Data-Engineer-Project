@@ -58,6 +58,7 @@ I can’t find Non-ascii characters in this column.
 
 The conclusion I can deduce is that the ‘Company Name’ column is the best column on wich we can make an outer join between the datasets.
 
+<br/><br/>
 ## Processing the duplicates
 
 
