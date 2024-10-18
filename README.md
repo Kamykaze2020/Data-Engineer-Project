@@ -87,7 +87,7 @@ I analyse the datasets with the duplicate entries. We see that we have a good re
 So that I don’t lose important data I decided to make a Fuzzy Matching for Duplicate-Like Entries on 3 columns: ‘Company Name’, ‘Phone’ and ‘Category’, when we find a row where data matches with a threshold of a 80% similarity on all colums we keep the first row and discard the other. We can play with this values to obtain a better result, we can lower the similarity percentage for different results.
 
 
-After Fuzzy(80%)           |  Before Fuzzy(80%)
+After Fuzzy(80% similarity)           |  Before Fuzzy(80% similarity)
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/396f4b3e-db56-4346-8d16-c4e9b2c044ba)  |  ![image](https://github.com/user-attachments/assets/0a1a3c75-ca79-426f-8cc0-831937533dc5)
 
@@ -97,7 +97,7 @@ After the algorithm with a 80% similarity is implemented we see a reduction in t
 I run the algorithm again with a 70% similarity and we obtain the results below.
 
 
-After Fuzzy(70%)           |  Before Fuzzy(70%)
+After Fuzzy(70% similarity)           |  Before Fuzzy(70% similarity)
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/1cba64ee-d4c1-466d-b440-72b6b80bbfe6)  |  ![image](https://github.com/user-attachments/assets/0a1a3c75-ca79-426f-8cc0-831937533dc5)
 
