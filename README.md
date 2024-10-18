@@ -23,7 +23,7 @@ I prioritized looking into the columns for the merger as follows: ‘Company Nam
 <br/><br/>
 ### Company Name column
 
-
+![image](https://github.com/user-attachments/assets/576bb4a1-923f-4251-9b9f-f35dd4945dd7)
 
 I changed all the rows to lowercase to prevent cases where data has wrong uppercase characters. 
 
@@ -37,6 +37,8 @@ Non-ascii characters occupy a small percentage of the datasets, the highest beei
 <br/><br/>
 ### Phone column
 
+![image](https://github.com/user-attachments/assets/534a2443-fd12-4ba6-9e3f-f7474dbecfa7)
+
 I’ve ensured that all the phone numbers are treated as stirngs and removed any non-numeric characters that may appear.
 
 There is a high percentage of duplicates in the ‘Phone’ column, the highest beeing 37.79% of the total rows in the Facebook dataset.
@@ -47,6 +49,8 @@ There are no NaN values or Non-ascii characters which is very good.
 <br/><br/>
 ### Category column
 
+![image](https://github.com/user-attachments/assets/4c325285-599f-4b05-9534-092d84baa676)
+
 I’ve converted all rows to lowecase to prevent cases where data has wrong uppercase characters.
 In this column we see an extremely big percentage of duplicates in the Google dataset and Website dataset with a percentage of 99.86%, respectively 99.22%. Which will heavely affect our data when we make an outer join based on this column.
 The NaN values are not as much present but still occupy a large enough amount, the highest beeing in the Facebook dataset, representing a 23.29% of all the total rows.
@@ -55,6 +59,7 @@ I can’t find Non-ascii characters in this column.
 The conclusion I can deduce is that the ‘Company Name’ column is the best column on wich we can make an outer join between the datasets.
 
 ###
+<br/><br/>
 
 We should try to remove the duplicates, but we should be careful not to lose data, for that I consider that a Fuzzy Matching for Duplicate-Like Entries should work alright, when we find a row where data matches with a threshold of a 80% similarity we should keep the first row and discard the other. We will use th fuzzywuzzy library in Python.
 
