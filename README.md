@@ -101,6 +101,11 @@ After Fuzzy(70% similarity)|  Before Fuzzy
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/1cba64ee-d4c1-466d-b440-72b6b80bbfe6)  |  ![image](https://github.com/user-attachments/assets/0a1a3c75-ca79-426f-8cc0-831937533dc5)
 
+I run the algorithm again with a 60% similarity and we obtain the results below.
+
+After Fuzzy(60% similarity)|  Before Fuzzy
+:-------------------------:|:-------------------------:
+![15](https://github.com/user-attachments/assets/1f6dc8e3-1b44-4cac-b3c3-41ed3c8ba065)    |  ![image](https://github.com/user-attachments/assets/0a1a3c75-ca79-426f-8cc0-831937533dc5)
 
 
 
