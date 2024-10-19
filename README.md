@@ -122,7 +122,8 @@ Now we should replace non-ascii characters. We can use the unicode library to re
 
 Now that I cleaned the data I will make on outer join with all the datasets.
 
-The final data is stored in the file **‘final_merged.csv’**.
+The final data is stored in the file **‘final_merged.csv’**. Due to the file size beeing more than 25mb I stored it on drive, you can access it by following this link: https://drive.google.com/file/d/141HgbEtGxoCs8XRdFD9IwqMyP46oxa5l/view?usp=drive_link
+
 
 
 
