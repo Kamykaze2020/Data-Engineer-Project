@@ -107,6 +107,13 @@ After Fuzzy(60% similarity)|  Before Fuzzy
 :-------------------------:|:-------------------------:
 ![15](https://github.com/user-attachments/assets/1f6dc8e3-1b44-4cac-b3c3-41ed3c8ba065)    |  ![image](https://github.com/user-attachments/assets/0a1a3c75-ca79-426f-8cc0-831937533dc5)
 
+With a 60% similarity we can see a reduction as high as 24.48% within the dataset.
+
+Next we will add the cleaned data to our original dataset.
+
+
+
+
 
 
 
