@@ -109,11 +109,20 @@ After Fuzzy(60% similarity)|  Before Fuzzy
 
 With a 60% similarity we can see a reduction as high as 24.48% within the dataset.
 
-Next we will add the cleaned data to our original dataset.
+Next we will append the cleaned data to our original dataset. The results after the append are shown in the image below.
+
+![image](https://github.com/user-attachments/assets/fd129c23-7c91-4538-9a83-b3c71b8757ef)
+
+Now we should replace non-ascii characters. We can use the unicode library to replace special characters with their ASCII equivalents.
+
+![image](https://github.com/user-attachments/assets/07075b30-e74f-4cab-b932-5f9a6f2982cb)
+
+![image](https://github.com/user-attachments/assets/4716c6ad-66b2-4dd4-b495-d2a266c68722)
 
 
+Now that I cleaned the data I will make on outer join with all the datasets.
 
-
+The final data is stored in the file **‘final_merged.csv’**.
 
 
 
