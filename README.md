@@ -1,4 +1,4 @@
-# Data-Engineer-Project
+# Entity Resolution & Data Integration Pipeline for Multi-Source Company Records
 
 ### The assignment
 
